@@ -9,7 +9,6 @@ export default defineType({
       name: 'name',
       title: 'Name',
       type: 'string',
-      validation: (Rule) => Rule.required().error('Name is required').unique(),
     },
     defineField({
       name: 'file',
