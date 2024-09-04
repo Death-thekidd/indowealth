@@ -8,5 +8,18 @@ import logo from './logo'
 import mission from './mission'
 import vision from './vision'
 import iwt from './iwt'
+import documentation from './documentation'
 
-export const schemaTypes = [post, author, category, blockContent, home, about, logo, mission, vision, iwt]
+export const schemaTypes = [
+  post,
+  author,
+  category,
+  blockContent,
+  home,
+  about,
+  logo,
+  mission,
+  vision,
+  iwt,
+  documentation,
+]
